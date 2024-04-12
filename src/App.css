@@ -1,0 +1,64 @@
+.app-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    background-color: #f5f5f5;
+}
+
+.custom-slider-wrapper {
+    position: relative;
+    width: 300px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    padding: 10px;
+}
+
+.custom-circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.custom-line {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 80px;
+    padding: 10px;
+}
+
+.custom-step {
+    width: calc(100% / var(--steps));
+    height: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.custom-active-step {
+    background-color: #007bff;
+}
+
+.custom-wrapper {
+    width: 400px;
+}
+
+.custom-circle {
+    background-color: #ff6347;
+}
+
+.custom-track {
+    background-color: #90ade7;
+}
